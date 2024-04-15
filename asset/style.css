@@ -1,81 +1,94 @@
 /*
- * @Name: GitHub Event Web
- * @Author: Max Base
- * @Repository: https://github.com/BaseMax/GitHubEventWeb
+
+@Name: Red Cross AI
+@Author: Red Cross
+@Repository: https://github.com/RedCrossAI/RedCrossAI
 */
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-* {
-    padding: 0;
-    margin: 0;
+{
+padding: 0;
+margin: 0;
 }
-*, *:before, *:after {
-    box-sizing: border-box;
+
+*, *:before, :after {
+box-sizing: border-box;
 }
+
 body {
-    background: #000;
-    color: white;
-    font-family: "Open Sans";
+background: #FFFFFF;
+color: #000000;
+font-family: "Open Sans";
 }
+
 img {
-    border: 0px;
+border: 0px;
 }
+
 li {
-    list-style: none;
+list-style: none;
 }
+
 a {
-    text-decoration: none;
-    cursor: pointer;
-    color: inherit;
+text-decoration: none;
+cursor: pointer;
+color: inherit;
 }
+
 a.underline {
-    padding-bottom: 4px;
-    color: white;
-    border-bottom: 2px solid white;
+padding-bottom: 4px;
+color: #D40000;
+border-bottom: 2px solid #D40000;
 }
+
 .gradient-subtext {
-    background: -webkit-linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+background: -webkit-linear-gradient(270.97deg, #D40000 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
+
 .gradient-text {
-    /* background: -webkit-linear-gradient(270.97deg, #FFE580 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%); */
-    background: linear-gradient(267.91deg, #FFE57F 9.35%, #FF7170 96.48%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+/ background: -webkit-linear-gradient(270.97deg, #D40000 -21.36%, #FF7571 -2.45%, #EA5DAD 26.84%, #C2A0FD 64.15%, #3BF0E4 108.29%, #B2F4B6 159.03%); */
+background: linear-gradient(267.91deg, #D40000 9.35%, #FF7170 96.48%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
+
 .text-gradient-purple {
-    background: linear-gradient(87.54deg, #9867F0 -6.8%, #ED4E50 84.14%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+background: linear-gradient(87.54deg, #9867F0 -6.8%, #ED4E50 84.14%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
+
 .button {
-    font-family: "alliance", mono, sans-serif;
-    position: relative;
-    z-index: 1;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: none;
-    font-weight: 600;
-    font-size: 14px;
-    padding: 4px 28px;
-    height: 56px;
-    border-radius: 0;
-    overflow: hidden;
-    background: transparent;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    font-feature-settings: 'salt' on, 'ss01' on, 'ss02' on;
-    color: #fff;
-    border: 2px solid #FF7571;
+font-family: "alliance", mono, sans-serif;
+position: relative;
+z-index: 1;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+text-transform: none;
+font-weight: 600;
+font-size: 14px;
+padding: 4px 28px;
+height: 56px;
+border-radius: 0;
+overflow: hidden;
+background: transparent;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+font-feature-settings: 'salt' on, 'ss01' on, 'ss02' on;
+color: #FFFFFF;
+border: 2px solid #D40000;
 }
+
 .button:hover {
-    background: linear-gradient(269.16deg, #FFE580 -15.83%, #FF7571 -4.97%, #FF7270 15.69%, #EA5DAD 32.43%, #C2A0FD 50.09%, #9867F0 67.47%, #3BF0E4 84.13%, #33CE43 105.13%, #B2F4B6 123.24%);
-    background-position: 58% 50%;
-    background-size: 500%;
-    color: black;
+background: linear-gradient(269.16deg, #D40000 -15.83%, #FF7571 -4.97%, #FF7270 15.69%, #EA5DAD 32.43%, #C2A0FD 50.09%, #9867F0 67.47%, #3BF0E4 84.13%, #33CE43 105.13%, #B2F4B6 123.24%);
+background-position: 58% 50%;
+background-size: 500%;
+color: black;
 }
+
 section.updates {
     text-align: center;
     display: inline-block;
